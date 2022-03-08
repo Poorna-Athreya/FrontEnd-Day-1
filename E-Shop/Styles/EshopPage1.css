@@ -1,0 +1,72 @@
+body {
+    margin:0px;
+    background-color: rgb(49, 21, 85);
+    color: white;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:20px;
+}
+section{
+    margin-top:20px;
+    width: 500px;
+    height:500px;
+    padding:10px;
+    border-top: 1px solid white;
+    border-bottom:1px solid white;
+}
+header{
+    display: flex;
+    background-color: black;
+    height: 50px;
+    padding:15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header h3{
+    align-self: center;
+}
+header img{
+    width:75px;
+}
+#discount-message{
+    display: flex;
+    margin-left:3%;
+    background-color: rgb(25, 10, 44);;
+    text-align: center;
+    padding:10px;
+    justify-content: center;
+    flex-direction: column;
+    border-left:1px solid white;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 15px 0px;
+}
+#discount-message button {
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    align-self: flex-end;
+    border:1px solid white;
+    padding:15px;
+    background-color: transparent;
+    border-radius:5px;
+    color: white;
+}
+#discount-message button:hover{
+    background-color: rgb(74, 0, 170);
+    cursor: pointer;
+    font-weight: bold;
+}
+#merch-preview{
+    display: flex;
+    background-color: rgb(74, 0, 170);
+    margin-right:3%;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.5) 5px 0px 15px;
+    border-right:1px solid white;
+}
+#merch-preview img{
+    object-fit: contain;
+    width: 300px;
+}
