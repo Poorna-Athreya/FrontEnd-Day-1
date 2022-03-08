@@ -11,5 +11,5 @@
 * Status: Complete. (As shown below):
 <img src="./Screenshots/Portfolio page.png">
 
-> ## Shop Webpage
-* 
+> ## E-Shop Webpages
+* Create 2 webpages for an E-Shop 
