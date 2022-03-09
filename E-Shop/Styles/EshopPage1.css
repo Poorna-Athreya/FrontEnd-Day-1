@@ -70,3 +70,40 @@ header img{
     object-fit: contain;
     width: 300px;
 }
+
+@media screen and (max-width:700px) {
+    main{
+        flex-direction: column;
+        align-items: center;
+        align-content: space-between;
+        justify-content: space-between;
+    }
+    section{
+        border: 1px solid white;
+        padding:10px;
+        height:300px;
+    }
+    #discount-message{
+        margin:0%;
+        justify-items: center;
+        text-align: center;
+        align-items: center;
+    }
+    #discount-message h1{
+        width:60%;
+        font-size:1.2em;
+        align-self: center;
+    }
+    #discount-message button{
+        margin-top:8%;
+        font-size: 1em;
+    }
+    #merch-preview{
+        margin:0%;
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+    section img{
+        width:200px;
+    }
+}
