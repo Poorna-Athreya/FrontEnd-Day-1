@@ -10,6 +10,7 @@ main{
     margin-top:0%;
     width:70%;
     padding:5px;
+    margin-bottom:20px;
 }
 .shop-by{
     margin-top:0%;
@@ -163,9 +164,6 @@ footer p{
     }
     .categories button{
         justify-self: center;
-    }
-    aside{
-
     }
 }
 
